@@ -1,0 +1,263 @@
+nav{
+	box-shadow: 2px 3px 8px gray;
+}
+.top-margin{
+	margin-top: 82px;
+}
+
+.slide h2:hover{
+	color: rgba(52, 31, 151,1.0);
+}
+
+.m-color{
+	color: rgba(95, 39, 205,1.0);
+}
+.m-bg-color{
+	background-color: rgba(95, 39, 205,1.0);
+
+}
+.m-h-color{
+	color: rgba(52, 31, 205,1.0);
+}
+.m-bg-h-color{
+	background-color: rgba(52, 31, 205,1.0);
+}
+
+.popup{
+	width: 90%;
+	height: 550px;
+	margin-top: 10px;
+	position: absolute;
+	position: fixed;
+	z-index: 20;
+	background-attachment: fixed;
+	display: none;
+	visibility: hidden;
+	transition: all, 1s;
+	transition-duration: 1s;
+	background-color: white;
+}
+
+.popup input,
+.search-profile input{
+	/*border: 0.5px solid rgba(95, 39, 205,1.0);*/
+	/*width: 30%;*/
+	border: none;
+	outline: none;
+	height: 42px;
+	/*font-size: 20px;*/
+	background-color: rgb(224, 204, 255);
+	border-radius: 12px;
+    border-bottom: 3px solid rgba(52, 31, 151,1.0);
+}
+.btn-primary{
+	background-color: rgba(95, 39, 205,1.0);
+}
+.btn-primary:hover{
+	background-color: rgba(52, 31, 151,1.0);
+}
+
+.scrn:hover .popup{
+	display: block;
+	visibility:visible;
+	box-shadow: 5px 5px 10px gray,
+				-5px -5px 10px gray;
+	top: 80px;
+	left: 5%;
+}
+
+.alert-primary{
+	color: rgba(52, 31, 151,1.0);
+
+}
+
+.site-icon:hover,
+.top-articles .card:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 15px gray;
+	transition: all, 0.7s;
+}
+
+.top-articles h2{
+	display: inline;
+	border-bottom: 5px solid #54a0ff/*rgba(255, 107, 107,1.0)*/;
+}
+.top-articles a{
+	color: #ee5253;
+}
+.card-title,
+.card p{
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.categories li{
+	list-style-type: none;
+}
+/*.top-articles .card:hover{
+	cursor: pointer;
+	box-shadow: 3px 3px 15px gray;
+	transition: all, 0.5s;
+}*/
+
+.top-profile-outer{
+	margin-top: 30px;
+	width: 100%;
+	background-color: rgba(84, 160, 255,1.0);
+	border-radius: 30px;
+}
+.top-profile{
+	transition: all, 0.3s;
+}
+.top-profile:hover{
+	box-shadow: 2px 2px 5px rgba(46, 134, 222,1.0),
+				-2px -2px 5px rgba(46, 134, 222,1.0);
+	border-radius: 20px;
+}
+.top-profile a{
+	color: white;	
+	font-family: 'Sriracha', cursive;
+}
+.pro-dp img{
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	transition: all, 0.5s;
+}
+
+.profile{
+	border-radius: 20px;
+	transition: all, 0.4s;
+}
+.profile a{
+	font-family: 'Sriracha', cursive;
+}
+.profile img{
+	margin-top: 8px;
+	height: 170px;
+	width: 170px;
+	border-radius: 50%;
+}
+.profile:hover{
+	box-shadow: 2px 2px 8px gray,
+				-2px -2px 8px gray;
+	cursor: pointer;
+}
+
+.single-profile img{
+	height: 310px;
+	width: 310px;
+	border-radius: 50%;
+
+}
+.social a{
+	color: rgba(95, 39, 205,1.0)
+}
+.social a:hover{
+	color: rgba(46, 134, 222,1.0);
+}
+.rank i{
+	color: rgba(95, 39, 205,1.0);
+}
+.insta-icon:hover,
+.yt-icon:hover{
+	color: red;
+}
+
+#notFound404 {
+	font-size: 250px;
+	color: rgba(95, 39, 205,0.5);
+}
+
+.budday{
+	height: 1200px;
+	width: 100%;
+	background-image: url(birthdays/birthday-bg.jpg);
+	/*filter: blur(2px);*/
+	background-repeat: no-repeat;
+	background-size: cover;
+	object-fit: cover;
+	object-position: center;
+	background-attachment: fixed;
+	overflow: auto;	
+}
+
+.hbd-img img{
+	border: none;
+	z-index: 1;
+	box-shadow: 2px 2px 15px rgba(95, 39, 205,1.0),
+				2px 2px 30px rgba(255, 159, 243,1.0),
+				2px 2px 45px rgba(255, 159, 243,1.0),	
+				-2px -2px 15px rgba(95, 39, 205,1.0),
+				-2px -2px 30px rgba(255, 159, 243,1.0),
+				-2px -2px 45px rgba(255, 159, 243,1.0);
+
+	margin-top: 50px;	
+	width: 40%;
+	filter: blur(0px);
+}
+
+
+.footer a{
+	color: white;
+}
+
+.footer h5{
+	font-weight: bolder;
+	border-bottom: 3px solid white;
+}
+
+
+	/*MEDIA WIDTH ON DIFFERENT SCREEN SIZES*/
+
+@media (max-width: 575.98px) {
+	.site-icon i{
+		font-size: 10px;
+	}
+	.site-icon p{
+		font-size: 20px;
+	}
+	.site-icon h3{
+		/*padding: 50px;*/
+		font-size: 25px;
+	}
+	.categories a{
+		font-size: 17px;
+	}
+	.budday .jumbotron q{
+		font-size: 20px;
+	}
+	.budday p{
+		font-size: 25px;
+	}
+	.pro-dp img{
+		height: 120px;
+		width: 120px;
+	}
+	.single-profile img{
+		height: 200px;
+		width: 200px;
+	}
+	table{
+		font-size: 20px;
+	}
+}
+
+@media (max-width: 767.98px) {
+	.navbar-nav li{
+			font-size: 15px;
+	}
+	.pro-dp img{
+		height: 135px;
+		width: 135px;
+	}
+}
+
+@media (max-width: 991.98px) {
+
+}
+
+@media (max-width: 1199.98px) {
+
+}
